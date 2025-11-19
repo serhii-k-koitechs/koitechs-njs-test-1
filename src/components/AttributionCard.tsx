@@ -61,7 +61,7 @@ const AttributionCard = () => {
           <p>(407) 559 - 2000</p>
         </div>
         <div className="text-5xl font-bold" style={{ letterSpacing: '-2%' }}>
-          $99/mo
+          $99<span style={{ fontFamily: 'Inter', fontWeight: 700, fontSize: '36px', lineHeight: '44px', letterSpacing: '-2%', textAlign: 'right', verticalAlign: 'bottom' }}>/mo</span>
         </div>
       </div>
     </div>

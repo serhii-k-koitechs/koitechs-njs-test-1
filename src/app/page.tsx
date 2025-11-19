@@ -41,7 +41,7 @@ export default function Home() {
           {/* Main Content Section */}
           <div className="flex flex-row justify-start mt-8 gap-8">
             {/* Left Side */}
-            <div className="w-[696px] flex flex-col gap-4">
+            <div className="w-[696px] flex flex-col">
               <Carousel />
               <AttributionCard />
             </div>

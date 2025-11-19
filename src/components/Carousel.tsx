@@ -13,7 +13,7 @@ const Carousel = () => {
         alt="Hero Image"
         fill
         style={{ objectFit: 'cover' }}
-        className={isMobile ? '' : 'rounded-2xl'}
+        className={isMobile ? '' : 'rounded-t-2xl'}
       />
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-3 bg-white/90 backdrop-blur-sm p-2 rounded-full">
         <button className="w-2 h-2 rounded-full" style={{ backgroundColor: 'var(--active-pagination)' }}></button>
